@@ -38,3 +38,57 @@ input, button, textarea, select {
 p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
 }
+
+/*New CSS*/
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: gainsboro;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  color: rebeccapurple;
+  text-align: center;
+}
+
+table {
+  border: 2px solid darkorchid;
+  width: 650px;
+  margin: 0 auto;
+}
+
+thead {
+  background-color: plum;
+}
+
+/*tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}*/
+
+/*tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}*/
+
+/*th {
+  display: table-cell;
+  vertical-align: inherit;
+  font-weight: bold;
+  text-align: center;
+}*/
+
+td {
+  border-top: 1px, solid, darkorchid;
+}
+
+.code {
+  font-family: monospace;
+  background-color: beige;
+}
