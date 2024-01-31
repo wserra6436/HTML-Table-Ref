@@ -1,4 +1,4 @@
-/*CSS modifications below*/
+/*CSS modifications below
 
 *,
 *::before,
@@ -37,7 +37,7 @@ input, button, textarea, select {
 
 p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
-}
+}*/
 
 /*New CSS*/
 
@@ -65,27 +65,12 @@ thead {
   background-color: plum;
 }
 
-/*tbody {
-  display: table-row-group;
-  vertical-align: middle;
-  border-color: inherit;
-}*/
-
-/*tr {
-  display: table-row;
-  vertical-align: inherit;
-  border-color: inherit;
-}*/
-
-/*th {
-  display: table-cell;
-  vertical-align: inherit;
-  font-weight: bold;
-  text-align: center;
-}*/
+tbody {
+  border: 25px, solid, darkorchid;
+}
 
 td {
-  border-top: 1px, solid, darkorchid;
+  border-top: 1px solid darkorchid;
 }
 
 .code {
